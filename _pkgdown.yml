@@ -1,0 +1,91 @@
+
+url: https://rstudio.github.io/renv/
+
+reference:
+
+- title: Basic Workflows
+  contents:
+  - init
+  - status
+  - snapshot
+  - restore
+
+- title: Library Management
+  contents:
+  - hydrate
+  - refresh
+  - clean
+
+- title: Lockfile Management
+  contents:
+  - lockfiles
+  - record
+  - modify
+  - history
+  - revert
+
+- title: Package Cache
+  contents:
+  - isolate
+  - rehash
+  - purge
+
+- title: Package Installation
+  contents:
+  - install
+  - update
+  - rebuild
+  - remove
+
+- title: Dependency Discovery
+  contents:
+  - dependencies
+
+- title: Project Management
+  contents:
+  - project
+  - activate
+  - deactivate
+  - migrate
+  - load
+  - upgrade
+  - paths
+  - equip
+  - settings
+  - config
+
+- title: Python Integration
+  contents:
+  - use_python
+
+- title: Miscellaneous
+  contents:
+  - consent
+  - diagnostics
+
+articles:
+
+  - title: Introduction to renv
+    navbar: Introduction
+    contents: [lockfile, local-sources, mran, faq]
+
+  - title: Collaborating using renv
+    navbar: Collaborating
+    contents: [collaborating, use]
+
+  - title: Packages Development with renv
+    navbar: Packages
+    contents: [packages]
+
+  - title: Deploy Applications with renv
+    navbar: Deployment
+    contents: [ci, docker, rsconnect]
+
+  - title: Integrating other projects with renv
+    navbar: Integration
+    contents: [python]
+
+  - title: Advanced Usages of renv
+    navbar: Advanced
+    contents: [profiles]
+
